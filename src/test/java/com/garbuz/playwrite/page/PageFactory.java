@@ -25,7 +25,6 @@ public class PageFactory {
 
     private final Map<Class<? extends BasePage>, BasePage> pages = new HashMap<>();
 
-    // 🔧 Setters
     public void setPlaywright(Playwright playwright) {
         this.playwright = playwright;
     }
